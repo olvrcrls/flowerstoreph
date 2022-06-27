@@ -1,8 +1,9 @@
 ## Instructions
+
 - Runs at **PHP 7.4^**
 - Run **composer install** and **npm install**
 - Run **php artisan migrate** and **php artisan db:seed** to seed DB data.
-- View at **[http://localhost:8000](http://localhost:8000)**
+- Run **php artisan serve** then view at **[http://localhost:8000](http://localhost:8000)**
 - For testing run **php artisan test tests/Feature/ProductTest.php** or **php artisan test tests/Feature/OrderTest.php**. This uses **DatabaseMigrations** to refresh database records.
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
