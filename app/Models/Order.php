@@ -12,7 +12,7 @@ class Order extends Model
     /**
      * Attribute that the model will use as the database table;
      */
-    protected $table = 'orders';
+    protected $table = 'order_table';
 
     /**
      * The attributes that are mass assignable.

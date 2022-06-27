@@ -13,7 +13,7 @@ class CreateOrdersTable extends Migration
      */
     public function up()
     {
-        Schema::create('orders', function (Blueprint $table) {
+        Schema::create('order_table', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('user_id')->index();
             // $table->foreignId('user_id')->constrained(); // Since there is no statement about the requirement that the foreign key needs to be constrained
