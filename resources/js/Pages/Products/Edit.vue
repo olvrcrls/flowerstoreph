@@ -78,7 +78,7 @@ import Icon from '@/Components/Icon';
             },
 
             restore() {
-                if (confirm('Are you sure you want to restore this product?')) {
+                if (confirm('Are you sure you want to enable this product?')) {
                     this.$inertia.put(`/products/${this.product.id}/restore`)
                 }
             },
